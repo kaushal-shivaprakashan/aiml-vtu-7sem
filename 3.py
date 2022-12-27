@@ -24,10 +24,20 @@ with open("123.csv") as f:
         print("\nStep " + str(data.index(i)+1) + " of Candidate Elimination Algorithm")
         print(specific)
         print(general)
+        
+        
+        
+        gh = [] # gh = general Hypothesis
+    for i in general:
+        for j in i:
+            if j != '?':
+                gh.append(i)
+                break
 
    
     print("\nFinal Specific hypothesis:\n", specific)
-    print("\nFinal General hypothesis:\n", general)
+    print("\nFinal General hypothesis:\n", gh
+         )
     
     
     
