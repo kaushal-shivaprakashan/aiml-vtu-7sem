@@ -21,10 +21,7 @@ for i in range(e):
     hla = sigmoid(np.dot(X,wh)+bh)
     op = sigmoid(np.dot(hla,wout)+bout)
     
-    dop = (y-op)*dersig(op)
-    dhl = dop.dot(wout.T) * dersig(hla)
-    wout += hla.T.dot(dop) *lr
-    wh += X.T.dot(dhl) *lr
+    
 print("Input: \n",str(X))
 print("Actual Output: \n",str(y))
 print("Predicted Output: \n" ,op)
