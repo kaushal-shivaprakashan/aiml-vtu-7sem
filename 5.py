@@ -23,3 +23,17 @@ for i in range(e):
 print("Input: \n",str(X))
 print("Actual Output: \n",str(y))
 print("Predicted Output: \n" ,op)
+
+#######op
+Input: 
+ [[0.66666667 1.        ]
+ [0.33333333 0.55555556]
+ [1.         0.66666667]]
+Actual Output: 
+ [[0.92]
+ [0.86]
+ [0.89]]
+Predicted Output: 
+ [[0.82276992]
+ [0.79714673]
+ [0.82248118]]
