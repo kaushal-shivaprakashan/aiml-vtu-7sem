@@ -7,8 +7,6 @@ y = y/100
 def sigmoid (x):
     return 1/(1 + np.exp(-x))
 
-def dersig(x):
-    return x * (1 - x)
 
 e,lr,iln,hln,oln=7000,0.1,2,3,1
 
